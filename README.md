@@ -24,7 +24,7 @@
    - open the main project's workspace and add the subproject
    - link the subproject to main project, open the main project target's `Build Phases`, open `Link Binary Witth Librarues` and add the subproject's framework
    - pay attention to that the subproject's class or functions need mark `Public`
-   - multiple projects use the same `Profile` to manage the frameworks, need pay attention to the project's path, so you may meet `Unable to find a target named` check the error project's path and set `project 'xx/xx'`in `Proflie`
+   - multiple projects use the same `Podfile` to manage the frameworks, need pay attention to the project's path, so you may meet `Unable to find a target named` check the error project's path and set `project 'xx/xx'`in `Podflie`
    - when you create a `framwork` and link it to the main project, you can run successfully on the iOS simulator, but when use the real device it may crash, need go to the `Build Phases` and add a new `Copy File Scprit` and set the `framework` you need
 
 5. Multiple configuration and scheme
@@ -46,7 +46,7 @@
    - run `fastlane match init` to create a `Matchfile` file
      - select your storage modes (like `git`)
      - input your certificate repo's url (like https://xxxxx)
-   -  after last step successful, open `Matchfile` input `app_identifier` and `username`, `app_identifier` is your app's `bundle id`, so you need login you apple developer to create the app id manually,  and need to make sure that your apple developer's device list is not empty, because `fastlane` create the `profile` need device, otherwise won't fail
+   -  after last step successful, open `Matchfile` input `app_identifier` and `username`, `app_identifier` is your app's `bundle id`, so you need login you apple developer to create the app id manually,  and need to make sure that your apple developer's device list is not empty, because `fastlane` create the `profile` need device, otherwise will fail
    - run `fastlane match development` and it will help to create the dev profile
    - if it's the first time to run `fastlane match`, will popup some questions
      - Passphrase for Match storage: remember it, if you change the develop machine need input it
