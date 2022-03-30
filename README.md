@@ -52,6 +52,7 @@
      - Passphrase for Match storage: remember it, if you change the develop machine need input it
      - Digit code:  apple will send to you
      - If you have multiple apple account will let you choose
+     - When you meet `Password for login keychain` please input your computer's unlock password
    - run `fastlane match appstore` will create the distribution profile
    - after `fastlane match` successful, fastlane will auto save the certification to your machine's keychain
    - now you can open your main project and choose the profile
