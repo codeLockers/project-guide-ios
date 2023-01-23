@@ -128,6 +128,7 @@
    - [R.swift](https://github.com/mac-cain13/R.swift)
 
      if you main project links some subproject, the R.swift script should be created in the subproject, and the R.swift script should add `--accessLevel public`
+     if you init R.swift in sub-project, you need create a assets and link it to `Development Assets`
 
    - [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
 
