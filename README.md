@@ -118,6 +118,10 @@
          upload_to_testflight
        end
      ```
+   - if meet auth error, maybe second password
+   ```
+   https://stackoverflow.com/questions/74210927/fastlane-altool-error-unable-to-upload-archive-failed-to-get-authorization
+   ```
 
 9. Third frameworks
 
