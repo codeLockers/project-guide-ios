@@ -194,6 +194,7 @@
      - `multi-language-mobile` only support Chinese and English,  if you want support more, you can find `multi-language-mobile-extension` tool
      
      10. can use [String+Extension](https://gist.github.com/jhonny-me/dd2edb43fb167d1f55f79021718507b7) combine with `R.swift`
+     11. Check the latest [solution](https://github.com/jhonny-me/mirrorrim#How-to-setup-Google-Account) 
      
    - [husky](https://typicode.github.io/husky/#/)
 
