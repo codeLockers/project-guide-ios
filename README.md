@@ -1,4 +1,4 @@
-# project guide iOS
+# project guide ios
 
 1. Create a git repo
 
