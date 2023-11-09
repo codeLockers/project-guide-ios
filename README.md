@@ -53,6 +53,7 @@
    - run `fastlane match development` and it will help to create the dev profile
    - if it's the first time to run `fastlane match`, will popup some questions
      - Passphrase for Match storage: remember it, if you change the develop machine need input it
+     - need your input you apple accout's password
      - Digit code:  apple will send to you
      - If you have multiple apple account will let you choose
      - When you meet `Password for login keychain` please input your computer's unlock password
