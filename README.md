@@ -47,9 +47,9 @@
      - select your storage modes (like `git`)
      - input your certificate repo's url (like https://xxxxx)
    -  after last step successful, open `Matchfile` input `app_identifier` and `username`
-     - `app_identifier` is your app's `bundle id`, so you need login you apple developer to create the app id manually
-     - `username` is your apple account email
-     -  need to make sure that your apple developer's device list is not empty, because `fastlane` create the `profile` need device, otherwise will fail
+        - `app_identifier` is your app's `bundle id`, so you need login you apple developer to create the app id manually
+        - `username` is your apple account email
+        -  need to make sure that your apple developer's device list is not empty, because `fastlane` create the `profile` need device, otherwise will fail
    - run `fastlane match development` and it will help to create the dev profile
    - if it's the first time to run `fastlane match`, will popup some questions
      - Passphrase for Match storage: remember it, if you change the develop machine need input it
