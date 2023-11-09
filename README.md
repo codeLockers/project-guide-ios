@@ -58,6 +58,7 @@
      - If you have multiple apple account will let you choose
      - When you meet `Password for login keychain` please input your computer's unlock password
    - run `fastlane match appstore` will create the distribution profile
+   - run `fastlane match adhoc` will create the adhoc profile
    - after `fastlane match` successful, fastlane will auto save the certification to your machine's keychain
    - now you can open your main project and choose the profile
    - if meet unmatched error just clear the cache and restart Xcode
